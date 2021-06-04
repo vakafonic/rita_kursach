@@ -2,15 +2,8 @@ body{
 	margin:0px;
 }
 
-.main{
-	margin:0px;
-	width:100%;
-	height:80%;
-	/* background:url(картинки/fonic4.jpg);
-	background-size:cover; */
-}
-
 .menus{
+	z-index: 1000;
 	position:fixed;
 	width: 100%;
 	top:0;
@@ -41,14 +34,12 @@ body{
 	text-decoration:none;
 	color:#E0FFFF;
 	/* display: inline-block; */
-	width:150px;
-	height:30px;
 	font-size:16px;
 	float: left;
     display: block;
     /* color: #f2f2f2; */
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 40px;
 }
 
 .menus a:hover{
@@ -57,35 +48,30 @@ body{
 }
 
 #menuses_img{
-	float:right;
-	margin-top:4%;
-	margin-right:150px;
 	border:3px double #EE82EE;
-	width:500px;
-	height:600px;;
+	width:auto;
+	height:600px;
 }
 
 .text_main{
 	color:white;
 	font-family:Luminari;
 	text-align:center;
-	padding-top:200px;
-	width:55%;
-	height:3000px;
-	margin-left:3%;
-	margin-top:35px;
-
 }
 
-p{
+.fonics {
 	border:3px double #EE82EE;
-	padding:35px;
-	font-size:115%;
+}
+
+.content-section p {
+	font-size:18px;
 	margin: 0;
 }
 
 .fonics{
 	background-color:#191970;
+	padding: 85px 35px;
+	font-size: 18px;
 
 }
 
@@ -103,10 +89,6 @@ p{
 	border:none;
 }
 
-.menuses_pers h3{
-	padding-bottom:20px;
-	padding-top: 60px;
-}
 
 #kiki_img{
 	/* float:center; */
@@ -132,10 +114,6 @@ p{
 	border:none;
 }
 
-.menuses_perses h3{
-	padding-bottom:20px;
-	/* padding-top: 40px; */
-}
 
 .menuses_perses{
 	background-color:#6495ED;
@@ -171,10 +149,6 @@ p{
 	margin-bottom:0px;
 }
 
-.menues_perses h3{
-	padding-bottom:20px;
-	/* padding-top: 40px; */
-}
 
 h3{
 	text-align:center;
@@ -184,22 +158,13 @@ h3{
 }
 
 #kik{
-	height:240px;
-	width:200px;
-	float:left;
-	margin-top:3.2%;
-	margin-right:1.5%;
-	margin-left:1.5%;
+	width:100%;
 	border:3px double #EE82EE;
 }
 
 #kik2{
 	height:340px;
-	width:250px;
-	float:right;
-	margin-top:1.5%;
-	margin-right:1.5%;
-	margin-left:1.5%;
+	width:auto;
 	border:3px double #EE82EE;
 }
 
@@ -225,9 +190,33 @@ h3{
 
 .parallax {
     background-image: url("картинки/fonic4.jpg");
-    min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 52px;
+}
+
+.first-block {
+	padding: 100px 0px;
+}
+
+.shadow {
+	-webkit-box-shadow: 22px 21px 47px -9px rgba(43,65,109,0.94);
+	-moz-box-shadow: 22px 21px 47px -9px rgba(43,65,109,0.94);
+	box-shadow: 22px 21px 47px -9px rgba(43,65,109,0.94);
+
+}
+
+.content-section{
+  	background: #5073ba;
+}
+
+h2 {
+	text-align: center;
+    font-size: 40px;
+}
+
+.content-section .container .row {
+	padding: 20px 0px
 }
